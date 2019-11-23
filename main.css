@@ -1,0 +1,250 @@
+body{
+	margin:0%;
+}
+
+html{
+	scroll-behavior:smooth;
+	/*overflow-x:hidden;*/
+	overflow-y:scroll;
+}
+
+.background{
+	background-image:url(/image/lap.jpg);
+  	background-position:center;
+  	background-repeat:no-repeat;
+  	background-size:cover;
+  	/*background-attachment:fixed;*/
+}
+
+.opacity{
+	background-color:rgba(25,136,224,0.5);
+   	height:auto;
+}
+
+.hello{
+	border:2px solid #f3410c;
+	border-top-right-radius:15px;
+	border-top-left-radius:15px;
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+}
+
+.hello:hover{
+	border:2px solid #fff !important;
+	color:#fff !important;
+}
+
+.inherit{
+	margin-top:0% !important;
+	background:transparent !important;
+	text-align:center !important;
+	border:none !important;
+}
+
+.fa-bars{
+	font-size:25px !important;
+	color:#fff;
+}
+
+.first_intro{
+	margin-top:1%;
+	color:#fff !important;
+	font-size:55px !important;
+	font-family:'Merienda One';
+	margin-bottom:5%;
+}
+
+.second_intro{
+	/*color:#f3410c !important;*/
+	color:#fff !important;
+	font-weight:bold;
+	font-family:'Merienda One';
+	font-size:20px !important;
+}
+
+#about{
+	background-color:#fff !important;
+	padding:5%;
+	text-align:center;
+	cursor:pointer;
+}
+
+.top{
+	margin-top:2%;
+}
+
+.foot{
+	color:#1988e0 !important;
+	margin-top:2%;
+	padding:5px;
+	font-family:'Merienda One' ! important;
+	font-size:15px !important;
+	font-weight:bold !important;
+	font-variant:small-caps !important;
+}
+
+.border{
+	border:2px solid #f3420c7a;
+}
+
+.resize img{
+	width:70px;
+	height:70px;
+	max-width:80px;
+	max-height:80px;
+	display:inline-flex;
+	margin-left:25px;
+	margin-right:25px;
+	cursor:pointer;
+	transition:.5s all;
+}
+
+.hov2 img:hover{
+	transform:rotate(360deg);
+}
+
+.hov1 img:hover{
+	transform:scaleX(2);
+}
+
+.hov3 img:hover{
+	transform:rotate(360deg);
+}
+
+.hov4 img:hover{
+	transform:translate(15px);
+}
+
+.col-md-3{
+	margin-top:5%;
+	margin-bottom:4%;
+}
+
+.chat{
+	background-image:url(/image/animate2.gif);
+	background-position:center;
+	background-size:cover;
+	background-attachment:fixed;
+	margin-top:10%;
+	padding:8% !important;
+	text-align:center;
+	color:#fff !important;
+}
+
+.chat h2{
+	font-size:50px !important;
+	margin-bottom:50px;
+}
+
+.blink{
+	text-align: center;
+	font-family:'Merienda One';
+}
+
+.chat h2{
+	font-size: 25px;
+	color: #f3410c;
+	animation: blink 1.2s linear infinite;
+	text-shadow:0px 4px #fff;
+}
+
+@keyframes blink{
+	0%{opacity: 0;}
+	25%{opacity:.2;}
+	25%{opacity:.5;}
+	75%{opacity: .8;}
+	100%{opacity: 1;}
+} 	
+
+.zoom{
+	text-align: center;
+}
+
+.chat p{
+	font-size: 28px;
+	color: #fff;
+	text-shadow:0px 1px #f3410c;
+	animation: zoom 2s linear infinite;
+}
+
+@keyframes zoom{
+	0%{transform:scale(1.02);}
+	25%{transform:scale(1.05);}
+	25%{transform:scale(1.08);}
+	75%{transform:scale(1.12);}
+	100%{transform:scale(1.15);}
+}
+
+#this{
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+	border-bottom-left-radius:15px;
+	border-bottom-right-radius:15px;
+	background:inherit ! important;
+	width:200px;
+	margin-top:3%;
+	font-family:cursive;
+	font-variant:small-caps;
+	font-size:20px;
+	border:1px solid #fff;
+	padding:15px;
+	transition:.5s all;
+	transition-timing-function:ease-in-out;
+}
+
+#this:after{
+	border:none;
+}
+
+#this:before{
+	border:none;
+}
+
+#this:active{
+	border:none;
+}
+
+#this.btn-primary:hover{
+	background-color:#f3410c !important;
+	color:#fff;
+	border:none;
+}
+
+.modal-content{
+	color:#000 !important;
+	font-family:'Merienda One';
+	font-size:20px;
+}
+
+#exampleModalLongTitle{
+	color:#f3410c !important;
+	cursor:pointer;
+}
+
+.ok{
+	color:#fff !important;
+	background-color:#f3410c !important	;
+}
+
+.modal-body a{
+	margin-right:15px;
+	margin-left:15px;
+	margin-bottom:5%;
+	margin-top:2%;	
+}
+
+.footer{
+	background-color:#000;
+	color:#fff;
+	text-align: center;
+	font-family:'Amita';
+	font-size:17px;	
+	padding:3%;
+}
+
+.footborder{
+	width: 100%;
+    height: auto;
+    padding: 2px;
+    background-image: -webkit-linear-gradient(70deg, #fff 1%, #2196F3 30%, #f3410c 40%, #000 85%);
+}

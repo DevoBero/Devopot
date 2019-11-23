@@ -1,0 +1,185 @@
+.jumbotron{
+	margin-bottom:0% ! important;
+}
+
+.navbar{
+	font-weight:bold !important;
+	padding:2% !important;
+	/*border-bottom:2px solid #fff !important;*/
+}
+
+.navbar-brand{
+	font-size:30px !important;
+	color:#fff !important;
+	font-family:'Merienda One';
+	text-decoration:none !important;
+	transition:.5s all;	
+}
+
+.navbar-brand:hover{
+	color:#fff !important;
+	text-shadow:0px 3px 4px #fff;
+}
+
+.navbar-right li{
+	font-size:14px !important;
+	margin-right:35px !important;
+	margin-left:35px !important;
+}
+
+.navbar-right li a{
+	color:#fff !important;
+	text-decoration:none !important;
+	transition:.5s all;
+}
+
+.navbar-right li a:hover{
+	color:#f3410c !important;
+	background-color:inherit !important;
+}
+
+/*contact css starts here*/
+
+#contact{
+    background-image: -webkit-linear-gradient(45deg, #170202 10%, #000 90%, #1988e0 90%);
+	padding:5% ! important;
+	color:#fff !important;
+	font-size:17px;
+	font-family:cursive;
+	cursor:pointer;
+}
+
+.one{
+	text-align:center;
+	margin-top:2%;
+	padding:10px;
+	transition:.5s all;
+	transition-timing-function:ease-in-out;
+}
+
+.one:hover{
+	transform:scale(1.15);
+}
+
+.one i{
+	color:#f3410c;
+	font-size:80px;
+}
+.two{
+	text-align:center;
+	padding:10px;
+	transition:.5s all;
+	transition-timing-function:ease-in-out;
+	margin-top:2%;
+}
+
+.two:hover{
+	transform:scale(1.15);
+}
+
+.two i{
+	color:#f3410c;
+	font-size:80px;
+}
+
+.three{
+	text-align:center;
+	margin-top:2%;
+	transition-timing-function:ease-in-out;
+	transition:.5s all;
+	padding:10px;
+}
+
+.three:hover{
+	transform:scale(1.15);
+}
+
+.three i{
+	color:#f3410c;
+	font-size:80px;
+}
+
+.one h2{
+	font-weight:bold;
+	font-family:'Amita';
+	color:#fff;
+}
+
+.two h2{
+	font-weight:bold;
+	font-family:'Amita';
+	color:#fff;
+}
+
+.three h2{
+	font-weight:bold;
+	font-family:'Amita';
+	color:#fff;
+}
+
+#contact span{
+	color:#1988e0;
+}
+
+/*contact css ends here*/
+
+/*social*/
+.btn-fb{
+	background-color: #3b5998;
+	color: #ffffff;
+	font-size: 16px;
+	transition:.5s all;
+}
+
+.btn-whatsapp{
+	background-color:#25d366;
+	color: #ffffff;
+	transition:.5s all;
+	font-size: 16px;
+}
+
+.btn-twitter{
+	transition:.5s all;
+	background-color: #55acee;
+	color: #ffffff;
+	font-size: 16px;
+}
+
+.btn-linkedin{
+	background-color: #0077b5;
+	transition:.5s all;
+	color: #ffffff;
+	font-size: 16px; 
+}
+
+.btn-github{
+	background-color: #211F1F;
+	color: #ffffff;
+	transition:.5s all;
+	font-size: 16px;
+}
+/*social*/
+
+.btn-fb:hover{
+	transform:rotateX(360deg);
+}
+
+.btn-whatsapp:hover{
+	transform:rotateY(360deg);
+}
+
+.btn-twitter:hover{
+	transform:rotateX(360deg);
+}
+
+.btn-linkedin:hover{
+	transform:rotateZ(360deg);
+}
+
+.btn-github:hover{
+	transform:rotateY(360deg);
+}
+
+.zoom p{
+    font-family:'Amita';
+}

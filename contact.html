@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>BAC</title>
+    <link rel="shortcut icon" href="image/m2.jpg" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+    <link rel="stylesheet" type="text/css" href="/os.css" />
+    <link rel="stylesheet" type="text/css" href="contact.css" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/os.js"></script>
+  </head>
+
+  <body data-aos-easing="ease-out-back" data-aos-delay="0">
+    <script>
+      AOS.init();
+    </script>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <img
+        src="image\flowerlogo.jpg"
+        alt="admin"
+        class="img-circle profile-img"
+      />
+      <a class="navbar-brand pl-2" href="contact.html"
+        >Bereonwu <br />Agric & Co.</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link " href="home.html">Home</a>
+          <a class="nav-item nav-link" href="about.html">About</a>
+          <a class="nav-item nav-link active" href="contact.html">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="jumbotron" id="contact">
+      <div class="container-fluid pt-5">
+        <div class="row">
+          <div
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
+            <div class="col-md-4 one">
+              <i class="fa fa-home"></i>
+              <h2>HOME</h2>
+              <address>
+                UMUALAOMA, ALAIKE VILLAGE,
+                IDEATOR NORH,
+                IMO-state.
+                Nigeria.
+              </address>
+            </div>
+          </div>
+
+          <div
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
+            <div class="col-md-4 two">
+              <i class="fa fa-building"></i>
+              <h2>WORK</h2>
+              <address>
+                5, Okpuno Awka Anambra.
+                Anambra-state.
+                Nigeria.
+              </address>
+            </div>
+          </div>
+
+          <div
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
+            <div class="col-md-4 three">
+              <i class="fa fa-spinner fa fa-spin"></i>
+              <h2>OTHERS</h2>
+              <abbr title="Phone"><span class="fa fa-phone"></span></abbr>
+              +(234)90-9519-5449
+              <span class="fa fa-envelope"></span>bendavidosondu@gmail.com
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="jumbotron chat" id="chat">
+      <div class="container-fluid">
+        <h2 class="blink">WANT TO START A PROJECT?</h2>
+        <p class="zoom">
+          Interested in working together? We should queue up a chat. I'll buy
+          the coffee.
+        </p>
+
+        <button
+          type="button"
+          class="btn btn-primary"
+          id="this"
+          data-toggle="modal"
+          data-target="#exampleModalCenter"
+        >
+          Lets do this!
+        </button>
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="exampleModalCenter"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalCenterTitle"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title navbar-brand" id="exampleModalLongTitle">
+                  DevoBero WEB
+                </h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h4 style="font-family:cursive; font-weight:bold">
+                  THANKS FOR TAKING TIME TO REACH OUT!
+                </h4>
+                <br />
+                <p class="contacts">
+                  <a
+                    href="https://api.whatsapp.com/send?phone=2349095195449&text=Hi! Devo-Bero. "
+                    target="_blank"
+                    class="btn btn-whatsapp"
+                    role="button"
+                    ><i class="fa fa-whatsapp"></i
+                  ></a>
+
+                  <a
+                    href="https://github.com/DevoBero"
+                    target="_blank"
+                    class="btn btn-github"
+                    role="button"
+                    ><i class="fa fa-whatsapp"></i
+                  ></a>
+                </p>
+              </div>
+
+              <hr />
+
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form_main">
+                      <h3 class="heading">LEAVE ME A MESSAGE</h3>
+                      <div class="form">
+                        <form
+                          action="https://bendavidosondu@gmail.com"
+                          target="_blank"
+                          method="POST"
+                        >
+                          <input
+                            type="text"
+                            required=""
+                            placeholder="Please input your Name"
+                            name="name"
+                            class="txt"
+                          />
+                          <input
+                            type="text"
+                            required=""
+                            placeholder="Please input your mobile No"
+                            name="mob"
+                            class="txt"
+                          />
+                          <input
+                            type="email"
+                            required=""
+                            placeholder="Please input your Email"
+                            name="email"
+                            class="txt"
+                          />
+                          <textarea
+                            placeholder="Your Message"
+                            name="message"
+                            type="text"
+                            class="txt_3"
+                          ></textarea>
+                          <input type="submit" name="submit" class="txt2" />
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="modal-footer">
+                <button type="button" class="btn ok" data-dismiss="modal">
+                  OK
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footborder"></div>
+    <div class="footer">
+      <p>
+        &copy Bereonwu David Osondu
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+      </p>
+    </div>
+  </body>
+</html>
