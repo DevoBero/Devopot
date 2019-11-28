@@ -1,0 +1,75 @@
+.navbar-brand {
+  font-size: 20px !important;
+  color: #fff !important;
+  font-family: serif;
+  transition: 0.5s all;
+}
+
+#motor {
+  background-image: url("image/bo6.jpg");
+}
+
+.centered {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: azure;
+}
+
+img {
+  display: block;
+}
+
+/* img:hover {
+  display: none;
+} */
+
+#i17:hover {
+  background: url(image/t8.jpg)no-repeat 0 -100px;
+} 
+
+#i18:hover {
+  background: url(image/bo6.jpg)no-repeat 0 -100px;
+} 
+
+#i12:hover {
+  background: url(image/bo6.jpg)no-repeat 0 -100px;
+}
+
+#i13:hover {
+  background: url(image/bo6.jpg)no-repeat 0 -100px;
+}
+
+#chat {
+  background-image: url(image/bo6.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 4%;
+  padding: 8% !important;
+  text-align: center;
+  color: rgba(251, 251, 253, 0.966) !important;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  font-family: "Amita";
+  font-size: 17px;
+  padding: 3%;
+}
+
+.footborder {
+  width: 100%;
+  height: auto;
+  padding: 2px;
+  background-image: -webkit-linear-gradient(
+    70deg,
+    #fff 1%,
+    #2196f3 30%,
+    #f3410c 40%,
+    #000 85%
+  );
+}

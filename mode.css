@@ -22,9 +22,9 @@
 }
 
 .navbar-right li{
-	font-size:14px !important;
-	margin-right:35px !important;
-	margin-left:35px !important;
+	font-size:13px !important;
+	/* margin-right:35px !important; */
+	/* margin-left:35px !important; */
 }
 
 .navbar-right li a{
